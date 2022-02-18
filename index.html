@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
         <style>
             body  {
-                background-image: url("img/bg.jpg");
+                background-image: url("img/bg_2.jpg");
                 background-color: #cccccc;
+                font-family: 'Roboto', sans-serif;
             }
             div.score-1 {
                 margin: 0 auto;
@@ -26,10 +30,15 @@
                 font-size: 30px;
                 width: 50%;
                 text-align: center;
-                margin-top: 20px;
+                margin-top: 40px;
             }
             span.teamLocal, span.teamVisit {
                 display: inline-block;
+            }
+            div.gameTime {
+                color: #fff;
+                font-size: 30px;
+                margin-top: 50px;
             }
         </style>
     </head>
@@ -44,6 +53,12 @@
                     <div class="visit">
                         <span class="teamVisit">Visitante</span> <br />
                         0
+                    </div>
+                </div>
+                <div class="gameTime">
+                    <div class="">
+                        <span class="descriptionTime">Tiempo</span> <br />
+                        00:00
                     </div>
                 </div>
             </div>
