@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body  {
+                background-image: url("img/bg.jpg");
+                background-color: #cccccc;
+            }
+            div.score-1 {
+                margin: 0 auto;
+                text-align: center;
+                width: 40%;
+                height: 300px;
+            }
+            div.score-2 {
+                background-color: #00000073;
+                width: 100%;
+                height: 300px;
+                margin-top: 10%;
+            }
+            div.scoreboard {
+                display: flex;
+            }
+            div.local, div.visit {
+                color: #fff;
+                font-size: 30px;
+                width: 50%;
+                text-align: center;
+                margin-top: 20px;
+            }
+            span.teamLocal, span.teamVisit {
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="score-1">
+            <div class="score-2">
+                <div class="scoreboard">
+                    <div class="local">
+                        <span class="teamLocal">Local</span> <br />
+                        0
+                    </div>
+                    <div class="visit">
+                        <span class="teamVisit">Visitante</span> <br />
+                        0
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
